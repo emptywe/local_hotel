@@ -1,0 +1,33 @@
+{{template "base" .}}
+
+{{define "content"}}
+    <div class = "container">
+
+        <div class = "row">
+            <div class="col">
+                <img src="/static/images/hayat.png" class ="img-fluid img-thumbnail rounded mx-auto d-block room-image" alt="room image">
+            </div>
+        </div>
+
+        <div class = "row">
+            <div class = "col">
+                <h1 class ="text-center mt-4">Hayat Hotel</h1>
+                <p>Modern place for a living.</p>
+            </div>
+        </div>
+
+        <div class = "row">
+            <div class = "col text-center">
+                <a id="check_availability-button" href="#!" class="btn btn-dark">Check Availability</a>
+            </div>
+        </div>
+
+    </div>
+{{end}}
+
+{{define "js"}}
+    <script>
+        let elem = document.getElementById("check_availability-button")
+        book_room(2,elem,{{.CSRFToken}})
+    </script>
+{{end}}

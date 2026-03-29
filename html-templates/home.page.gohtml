@@ -1,0 +1,60 @@
+{{template "base" .}}
+
+{{define "content"}}
+    <div id="main-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="8000">
+                <img src="/static/images/beach.png" class="d-block w-100" alt="Beach" height="768" >
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Meet the unforgettable journey</h5>
+                    <p>Evening.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="8000">
+                <img src="/static/images/binoculars.png" class="d-block w-100" alt="binoculars" height="768">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Explore the unknown</h5>
+                    <p>Night.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="8000">
+                <img src="/static/images/birds.png" class="d-block w-100" alt="birds" height="768">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Go wild</h5>
+                    <p>Morning.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#main-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#main-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class = "container">
+
+
+        <div class = "row">
+            <div class = "col">
+                <h1 class ="text-center mt-4">Welcome to Svetlogorsk</h1>
+                <p>Find your best travel experience. Enjoy the best part of Europe.</p>
+            </div>
+        </div>
+
+        <div class = "row">
+            <div class = "col text-center">
+                <a href="/search-availability" class="btn btn-dark">Make Reservation Now</a>
+            </div>
+        </div>
+
+    </div>
+{{end}}
