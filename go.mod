@@ -2,9 +2,14 @@ module github.com/emptywe/local_hotel
 
 go 1.23.0
 
-require github.com/prometheus/client_golang v1.23.2
+require (
+	github.com/alexedwards/scs/v2 v2.9.0
+	github.com/prometheus/client_golang v1.23.2
+	gitlab.com/rad13/mylittlebooking v0.0.0-20230731082349-b605f3813fa2
+)
 
 require (
+	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/kr/text v0.2.0 // indirect

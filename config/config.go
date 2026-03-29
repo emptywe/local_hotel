@@ -1,10 +1,11 @@
 package config
 
 import (
+	"html/template"
+
 	"github.com/alexedwards/scs/v2"
 	"github.com/prometheus/client_golang/prometheus"
 	"gitlab.com/rad13/mylittlebooking/model"
-	"html/template"
 )
 
 // AppConfig holds the application config
