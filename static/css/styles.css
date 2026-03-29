@@ -1,0 +1,21 @@
+.custom-footer {
+    height: 5em;
+    background-color: midnightblue;
+    margin-top: 4em;
+    padding: 1em;
+    color: antiquewhite;
+    font-size: 80%;
+}
+
+.room-image {
+    max-width: 50%;
+}
+
+.red_text{
+    color: red;
+}
+
+/* override styles here */
+.notie-container {
+    box-shadow: none;
+}

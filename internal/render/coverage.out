@@ -1,0 +1,25 @@
+mode: set
+github.com/emptywe/local_hotel/internal/render/render.go:23.49,28.2 1 1
+github.com/emptywe/local_hotel/internal/render/render.go:30.80,35.2 4 1
+github.com/emptywe/local_hotel/internal/render/render.go:38.122,40.20 2 1
+github.com/emptywe/local_hotel/internal/render/render.go:40.20,42.3 1 0
+github.com/emptywe/local_hotel/internal/render/render.go:42.8,44.3 1 1
+github.com/emptywe/local_hotel/internal/render/render.go:46.2,47.9 2 1
+github.com/emptywe/local_hotel/internal/render/render.go:47.9,49.3 1 1
+github.com/emptywe/local_hotel/internal/render/render.go:51.2,53.45 3 1
+github.com/emptywe/local_hotel/internal/render/render.go:53.45,55.3 1 0
+github.com/emptywe/local_hotel/internal/render/render.go:57.2,57.42 1 1
+github.com/emptywe/local_hotel/internal/render/render.go:57.42,59.3 1 0
+github.com/emptywe/local_hotel/internal/render/render.go:60.2,60.12 1 1
+github.com/emptywe/local_hotel/internal/render/render.go:64.81,67.16 3 1
+github.com/emptywe/local_hotel/internal/render/render.go:67.16,69.3 1 0
+github.com/emptywe/local_hotel/internal/render/render.go:71.2,71.29 1 1
+github.com/emptywe/local_hotel/internal/render/render.go:71.29,76.17 4 1
+github.com/emptywe/local_hotel/internal/render/render.go:76.17,78.4 1 0
+github.com/emptywe/local_hotel/internal/render/render.go:80.3,81.17 2 1
+github.com/emptywe/local_hotel/internal/render/render.go:81.17,83.4 1 0
+github.com/emptywe/local_hotel/internal/render/render.go:85.3,85.21 1 1
+github.com/emptywe/local_hotel/internal/render/render.go:85.21,87.18 2 1
+github.com/emptywe/local_hotel/internal/render/render.go:87.18,89.5 1 0
+github.com/emptywe/local_hotel/internal/render/render.go:92.3,92.22 1 1
+github.com/emptywe/local_hotel/internal/render/render.go:95.2,95.22 1 1

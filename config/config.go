@@ -4,8 +4,8 @@ import (
 	"html/template"
 
 	"github.com/alexedwards/scs/v2"
+	"github.com/emptywe/local_hotel/model"
 	"github.com/prometheus/client_golang/prometheus"
-	"gitlab.com/rad13/mylittlebooking/model"
 )
 
 // AppConfig holds the application config
